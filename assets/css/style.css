@@ -174,7 +174,8 @@ section {
 
 .steps h3 {
     color: #024e76;
-    font-size: 46px;
+    font
+    -size: 46px;
     margin-top: 10px;
 }
 
@@ -188,6 +189,10 @@ section {
 }
 
 .trainers {
+    text-align: center;
+}
+
+.trainer {
     width: 900px;
     margin: 0 auto 30px auto;
     background: #024e76;
