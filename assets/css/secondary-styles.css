@@ -10,7 +10,6 @@
 
 .page-title {
     color: #fce138;
-    font-style: italic;
 }
 
 .page-title h2 {
@@ -24,8 +23,28 @@
 
 .secondary-content {
     width: 80%;
-    margin: 0;
-    text-align: center;
+    margin: auto;
     color: #024e76;
 }
 
+.secondary-content h3 {
+    font-size: 25px;
+    margin: 20px 0 20px 0;
+}
+
+.secondary-content p {
+    font-size: 16px;
+    margin: 20px 0 20px 0;
+    line-height: 1.5;
+}
+
+.secondary-content ul {
+    font-size: 16px;
+    margin: 15px 20px 15px 20px;
+    line-height: 1.5;
+}
+
+.secondary-content li {
+    color: #39a6b2;
+    margin: 10px 0px 10px 0px;
+}
