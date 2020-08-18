@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+.trainer {
+    margin: 5px;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    flex: 1;
+}
+
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.trainer-img {
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background: linear-gradient(0deg, blue, green 40%, red);
+    display: flex;
+    padding: 15px;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .trainer-img::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(252, 225, 56, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 1s;
+  }
+  
+.trainer-1 {
+    background-image: url("../images/trainer-1.jpg");
+  }
+
+    </style>
+</head>
+<body>
+    <section id="your-trainers">
+        <div class="flex-row">
+            <h2 class="section-title primary-border">Meet the Trainers</h2> 
+        </div>
+        <div class="trainers">
+            <!--first trainer bio-->
+            <article class="trainer">
+                <div class="trainer-img trainer-1">
+                  <div>
+                    <h3>Arron Stephens</h3>
+                    <h4>Speed / Strength</h4>
+                  </div>
+                </div>
+                <div class="trainer-bio">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                  </p>
+                </div>
+              </article>
+    
+         </div>
+    </section>
+    
+</body>
+</html>
